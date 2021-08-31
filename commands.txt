@@ -1,0 +1,12 @@
+hi this are some of basic commands of git bash
+
+git config --global user.name "Sam Smith"         to add user 
+git config --global user.email sam@example.com	  to add email
+git init				          to create local reposity
+git clone /path/to/repository			  Create a working copy of a local repository:
+git add <filename>				  Add one or more files to staging (index):
+git add *	
+git commit -m "Commit message"			  Commit changes to head (but not yet to the remote repository):	
+git commit -a					  Commit any files you've added with git add, and also commit any files you've changed since then	
+git push origin master                            Push	Send changes to the master branch of your remote repository
+git status					  List the files you've changed and those you still need to add or commit
